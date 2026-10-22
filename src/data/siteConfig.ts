@@ -141,8 +141,26 @@ export const faq = [
 // ---------------------------------------------------------------------
 export type Testimonial = { name: string; role: string; quote: string };
 export const testimonials: Testimonial[] = [
-  // TODO sample entry (delete the // to use):
-  // { name: 'Real Name', role: 'Student / Stenographer', quote: 'Their real words.' },
+  // TODO: These three are the old site's template filler (same text, names from the original template).
+  // They are NOT real user reviews. Replace each with a real learner's words, name and role before launch.
+  {
+    name: 'Daniel Wells',
+    role: 'User',
+    quote:
+      'Developing apps for mobile devices requires considering the constraints and features of these devices. Mobile devices run on battery and have less powerful processors.',
+  },
+  {
+    name: 'Elijah Terry',
+    role: 'User',
+    quote:
+      'Developing apps for mobile devices requires considering the constraints and features of these devices. Mobile devices run on battery and have less powerful processors.',
+  },
+  {
+    name: 'Daniel Wells',
+    role: 'User',
+    quote:
+      'Developing apps for mobile devices requires considering the constraints and features of these devices. Mobile devices run on battery and have less powerful processors.',
+  },
 ];
 
 export type Stat = { id: 'downloads' | 'learners' | 'active' | 'reviews'; label: string; value: number; suffix?: string };
