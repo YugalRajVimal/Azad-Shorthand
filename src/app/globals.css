@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 244 249 255;
+  --surface: 255 255 255;
+  --ink: 17 36 66;
+  --muted: 92 110 138;
+  --line: 214 228 245;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: 8 17 33;
+  --surface: 15 29 54;
+  --ink: 232 242 255;
+  --muted: 148 170 201;
+  --line: 33 52 84;
+  color-scheme: dark;
+}
+
+html { scroll-behavior: auto; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (hover: hover) and (pointer: fine) {
+  html.has-custom-cursor, html.has-custom-cursor a, html.has-custom-cursor button { cursor: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
