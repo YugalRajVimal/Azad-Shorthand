@@ -6,6 +6,10 @@
 // TODO: paste the real Google Play listing URL. The original site only had "#".
 export const PLAY_STORE_URL = '#';
 
+// TODO: when your backend exists, paste its URL here. The delete-account form will POST JSON to it
+// and show success only after a 2xx response. While '' it falls back to a prefilled email / WhatsApp request.
+export const DELETION_ENDPOINT = '';
+
 export const SITE_URL = 'https://azadshorthand.com';
 
 export const site = {

@@ -22,7 +22,7 @@ export default function Footer() {
             return <li key={s.id}><a href={s.href} aria-label={s.label} target={s.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer" className="grid h-11 w-11 place-items-center rounded-full bg-white/10 transition hover:-translate-y-1 hover:bg-azure-brand hover:text-white focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-azure-brand/50"><Icon size={20} /></a></li>;
           })}
         </ul>
-        <div className="flex gap-6 text-sm"><a href="/privacy/" className="hover:text-sky-brand">Privacy Policy</a><a href="/terms/" className="hover:text-sky-brand">Terms of Service</a></div>
+        <div className="flex gap-6 text-sm"><a href="/privacy/" className="hover:text-sky-brand">Privacy Policy</a><a href="/terms/" className="hover:text-sky-brand">Terms of Service</a><a href="/delete-account/" className="hover:text-sky-brand">Delete Account</a></div>
         <p className="text-sm text-slate-400">{site.copyright} Powered by {site.poweredBy}.</p>
       </div>
     </footer>

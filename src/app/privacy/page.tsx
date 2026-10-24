@@ -77,7 +77,7 @@ export default function Privacy() {
           <li>ask us to delete your account and data;</li>
           <li>withdraw consent you have given us, which will not affect processing done before you withdrew it.</li>
         </ul>
-        <p>To use any of these rights, email <a href={`mailto:${site.email}`}>{site.email}</a> from the address linked to your account. We will respond within a reasonable time.</p>
+        <p>You can request account and data deletion any time on our <a href="/delete-account/">Delete Account &amp; Data page</a>. For other requests, email <a href={`mailto:${site.email}`}>{site.email}</a> from the address linked to your account. We will respond within a reasonable time.</p>
       </section>
 
       <section>
